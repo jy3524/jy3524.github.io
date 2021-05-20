@@ -95,7 +95,7 @@ section {
 }
 
 @media screen and (max-width: 420px) {
-    .intro, footer, nav, .aboutme {
+    .intro, nav, .aboutme {
         padding: 30px;
     }
 
