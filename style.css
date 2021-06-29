@@ -6,7 +6,7 @@ li {
     padding: 10px;
 }
 
-span {
+.name {
     font-style: italic;
     font-weight: bold;
     -webkit-animation: colorchange 20s infinite alternate;
