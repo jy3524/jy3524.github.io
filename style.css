@@ -140,6 +140,11 @@ section {
     padding: 30px;
 }
 
+.col-lg-6:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
 .img-responsive {
     width: 100%;
 }
