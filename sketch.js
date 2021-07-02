@@ -11,6 +11,7 @@ const toggleBtn = document.querySelector('.navbar__toggleBtn');
 const menu = document.querySelector('.nav')
 const chevron = document.querySelector('.fa-chevron-down');
 const linkedin = document.querySelector('.fa-linkedin');
+const instagram = document.querySelector('.fa-instagram');
 
 toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('active');
@@ -22,6 +23,10 @@ chevron.addEventListener('click', () => {
 
 linkedin.addEventListener('click', () => {
     location.href="https://www.linkedin.com/in/masahitoyoon";
+});
+
+instagram.addEventListener('click', () => {
+    location.href="https://www.instagram.com/masahitoyoon/?hl=en";
 });
 
 const canvas = document.getElementById('canvas1');
