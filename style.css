@@ -185,3 +185,10 @@ section {
     height: 100%;
     border-radius: 7%;
 }
+
+#kicktitle {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'futura';
+}
